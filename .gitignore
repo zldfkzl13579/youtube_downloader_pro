@@ -1,0 +1,24 @@
+# 1. 파이썬 관련 잡동사니 무시
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# 2. 다운로드된 영상들 무시 (중요!)
+downloads/
+my_custom_folder/
+
+# 3. 실행 파일 및 바이너리 무시 (ffmpeg는 용량이 커서 올리면 안 됨)
+bin/
+*.exe
+
+# 4. 사용자 설정 및 로그 무시 (개인 정보 보호)
+settings.json
+download_history.csv
+*.log
+
+# 5. OS 생성 파일 무시
+.DS_Store
+Thumbs.db
